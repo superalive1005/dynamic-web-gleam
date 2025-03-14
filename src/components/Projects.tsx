@@ -15,8 +15,12 @@ const ProjectCard = ({ project }: { project: ProjectProps }) => {
   return (
     <div className={`rounded-xl overflow-hidden shadow-lg hover:-translate-y-2 transition-transform duration-300 ${project.gradient}`}>
       <div className="relative h-60 overflow-hidden">
-        <div className="w-full h-full bg-gray-300 flex items-center justify-center">
-          <span className="text-white font-bold text-xl">{project.title}</span>
+        <div className="h-48 overflow-hidden">
+          <img 
+            src={project.image} 
+            alt={project.title} 
+            className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
+          />
         </div>
       </div>
       <div className="p-6 bg-card">
@@ -66,37 +70,37 @@ const Projects = () => {
     {
       title: 'eCommerce Platform',
       description: 'Multi-tenant eCommerce platform with advanced search functionality and real-time inventory management.',
-      image: 'ecommerce.jpg',
+      image: 'https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?q=80&w=2070&auto=format&fit=crop',
       technologies: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Stripe API'],
-      demoUrl: 'https://adrianliu.vercel.app/projects/ecommerce',
-      githubUrl: 'https://github.com/livebcdev0603/ecommerce',
+      demoUrl: '',
+      githubUrl: 'https://github.com/livebcdev0603/ecommerce-nextjs',
       gradient: 'bg-hero-pattern',
     },
     {
-      title: 'Digital Shed Builder',
-      description: 'Real-time marketing analytics dashboard with comprehensive data visualization and reporting features.',
-      image: 'analytics.jpg',
-      technologies: ['React', 'D3.js', 'ECharts', 'Firebase', 'Redux'],
-      demoUrl: 'https://digitalshedbuilder.com',
-      githubUrl: 'https://github.com/livebcdev0603/analytics',
+      title: 'Kozi Kaza',
+      description: 'Online platform offering home design tools, 3D planning, and a community for sharing interior decoration ideas.',
+      image: '/kozikaza.jpg',
+      technologies: ['Angular', 'Krpano', 'Babylon.js'],
+      demoUrl: 'https://www.kozikaza.com/',
+      githubUrl: '',
       gradient: 'bg-purple-gradient',
     },
     {
-      title: 'Component Library',
-      description: 'Custom UI component library with comprehensive documentation and testing infrastructure.',
-      image: 'ui-library.jpg',
-      technologies: ['React', 'TypeScript', 'Storybook', 'Jest', 'Figma'],
-      demoUrl: 'https://adrianliu.vercel.app/projects/ui-library',
-      githubUrl: 'https://github.com/livebcdev0603/ui-library',
+      title: 'Manifest Analytics Dashboard',
+      description: 'Complex chart Dashboard for admin management Built with D3.js and ECharts.',
+      image: '/manifest.jpg',
+      technologies: ['React', 'D3.js'],
+      demoUrl: 'https://manifest-dashboard.vercel.app/',
+      githubUrl: '',
       gradient: 'bg-blue-gradient',
     },
     {
-      title: 'Real Estate Platform',
-      description: 'Feature-rich real estate platform with advanced property search and interactive map integration.',
-      image: 'real-estate.jpg',
-      technologies: ['React', 'Node.js', 'MongoDB', 'Google Maps API', 'AWS'],
-      demoUrl: 'https://adrianliu.vercel.app/projects/real-estate',
-      githubUrl: 'https://github.com/livebcdev0603/real-estate',
+      title: 'Learn.TheYEI',
+      description: 'Learning Portal provides practice resources for the AP Economics exams, National Economics Challenge, EconBowl, EconOlympiad, and more.',
+      image: '/yei-learn.jpg',
+      technologies: ['React', 'Next.js', 'TailwindCSS', 'CSS', 'Firebase'],
+      demoUrl: 'https://learn.theyei.org/',
+      githubUrl: '',
       gradient: 'bg-card-gradient',
     },
   ];
