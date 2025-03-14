@@ -83,7 +83,7 @@ const Hero = () => {
                     <span className="text-purple-300">const</span>
                     <span className="text-yellow-300 mx-1">App</span>
                     <span className="text-white">=</span>
-                    <span className="text-purple-300 mx-1">() =></span>
+                    <span className="text-purple-300 mx-1">{`() =>`}</span>
                     <span className="text-white">&#123;</span>
                   </div>
                   
