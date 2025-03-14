@@ -1,6 +1,6 @@
 
-import { Mail, MapPin, Phone, Sparkles, Target, Trophy, Gem } from 'lucide-react';
-import { Avatar, AvatarFallback } from '@/components/ui/avatar';
+import { Mail, MapPin, Phone, Code, Layers, Monitor } from 'lucide-react';
+import { Card, CardContent } from '@/components/ui/card';
 
 const About = () => {
   return (
@@ -15,14 +15,23 @@ const About = () => {
           <div className="lg:col-span-5 space-y-6">
             <div className="glass-card p-6 rounded-2xl space-y-4">
               <div className="flex justify-center mb-6">
-                <div className="relative">
-                  <Avatar className="h-24 w-24 border-4 border-primary/20 bg-primary/10">
-                    <AvatarFallback className="bg-primary/10">
-                      <Sparkles className="h-12 w-12 text-primary" />
-                    </AvatarFallback>
-                  </Avatar>
-                  <div className="absolute -bottom-2 -right-2 bg-primary rounded-full p-2">
-                    <Trophy className="h-5 w-5 text-white" />
+                <div className="relative w-24 h-24 flex items-center justify-center">
+                  {/* Code block graphic */}
+                  <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-accent/30 rounded-xl shadow-lg"></div>
+                  <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center">
+                    <div className="flex flex-col items-center">
+                      <Code className="h-8 w-8 text-primary mb-2" />
+                      <div className="h-1 w-12 bg-primary/50 rounded-full mb-1"></div>
+                      <div className="h-1 w-8 bg-primary/50 rounded-full mb-1"></div>
+                      <div className="h-1 w-10 bg-primary/50 rounded-full"></div>
+                    </div>
+                  </div>
+                  {/* Decorative elements */}
+                  <div className="absolute -top-2 -right-2 bg-accent/80 rounded-full p-2">
+                    <Monitor className="h-4 w-4 text-white" />
+                  </div>
+                  <div className="absolute -bottom-2 -left-2 bg-primary rounded-full p-2">
+                    <Layers className="h-4 w-4 text-white" />
                   </div>
                 </div>
               </div>
