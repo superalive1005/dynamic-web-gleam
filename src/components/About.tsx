@@ -1,5 +1,6 @@
 
-import { Mail, MapPin, Phone } from 'lucide-react';
+import { Mail, MapPin, Phone, Sparkles, Target, Trophy, Gem } from 'lucide-react';
+import { Avatar, AvatarFallback } from '@/components/ui/avatar';
 
 const About = () => {
   return (
@@ -13,6 +14,18 @@ const About = () => {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
           <div className="lg:col-span-5 space-y-6">
             <div className="glass-card p-6 rounded-2xl space-y-4">
+              <div className="flex justify-center mb-6">
+                <div className="relative">
+                  <Avatar className="h-24 w-24 border-4 border-primary/20 bg-primary/10">
+                    <AvatarFallback className="bg-primary/10">
+                      <Sparkles className="h-12 w-12 text-primary" />
+                    </AvatarFallback>
+                  </Avatar>
+                  <div className="absolute -bottom-2 -right-2 bg-primary rounded-full p-2">
+                    <Trophy className="h-5 w-5 text-white" />
+                  </div>
+                </div>
+              </div>
               <h3 className="text-xl font-semibold">Contact Information</h3>
               <div className="space-y-3">
                 <div className="flex items-center gap-3">
@@ -58,14 +71,6 @@ const About = () => {
             </p>
             
             <div className="flex gap-4">
-              <a 
-                href="https://adrianliu.vercel.app" 
-                target="_blank" 
-                rel="noopener noreferrer" 
-                className="text-primary hover:text-primary/80 font-medium transition-colors"
-              >
-                Personal Website
-              </a>
               <a 
                 href="https://github.com/livebcdev0603" 
                 target="_blank" 

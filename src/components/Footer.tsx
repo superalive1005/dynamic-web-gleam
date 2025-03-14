@@ -40,14 +40,6 @@ const Footer = () => {
             </p>
             <div className="flex space-x-6">
               <a 
-                href="https://adrianliu.vercel.app" 
-                target="_blank" 
-                rel="noopener noreferrer" 
-                className="text-muted-foreground hover:text-primary transition-colors"
-              >
-                Personal Website
-              </a>
-              <a 
                 href="https://github.com/livebcdev0603" 
                 target="_blank" 
                 rel="noopener noreferrer" 
