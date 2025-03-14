@@ -32,7 +32,7 @@ const Experience = () => {
     {
       company: 'Your Move',
       location: 'London, United Kingdom',
-      position: 'Full-Stack Developer',
+      position: 'Frontend Developer',
       duration: '01/2017 – 05/2019',
       website: 'www.your-move.co.uk',
       achievements: [
