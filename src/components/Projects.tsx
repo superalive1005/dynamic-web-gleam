@@ -65,7 +65,7 @@ const Projects = () => {
   const projects: ProjectProps[] = [
     {
       title: 'eCommerce Platform',
-      description: 'Multi-tenant eCommerce platform with advanced search functionality and real-time inventory management.',
+      description: 'Multi-tenant eCommerce platform ',
       image: 'https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?q=80&w=2070&auto=format&fit=crop',
       technologies: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Stripe API'],
       demoUrl: '',
@@ -74,7 +74,7 @@ const Projects = () => {
     },
     {
       title: 'Kozi Kaza',
-      description: 'Online platform offering home design tools, 3D planning, and a community for sharing interior decoration ideas.',
+      description: 'Home Design and 3D planning tools',
       image: '/kozikaza.jpg',
       technologies: ['Angular', 'Krpano', 'Babylon.js'],
       demoUrl: 'https://www.kozikaza.com/',
@@ -92,12 +92,12 @@ const Projects = () => {
     },
     {
       title: 'Learn.TheYEI',
-      description: 'Learning Portal provides practice resources for the AP Economics exams, National Economics Challenge, EconBowl, EconOlympiad, and more.',
+      description: 'Learning Portal for Economics exam and competition resources',
       image: '/yei-learn.jpg',
       technologies: ['React', 'Next.js', 'TailwindCSS', 'CSS', 'Firebase'],
       demoUrl: 'https://learn.theyei.org/',
       githubUrl: '',
-      gradient: 'bg-blue-gradient',
+      gradient: 'bg-card-gradient',
     },
   ];
 
