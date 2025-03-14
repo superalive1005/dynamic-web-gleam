@@ -15,13 +15,13 @@ const ProjectCard = ({ project }: { project: ProjectProps }) => {
   return (
     <div className={`rounded-xl overflow-hidden shadow-lg hover:-translate-y-2 transition-transform duration-300 ${project.gradient}`}>
       <div className="relative h-60 overflow-hidden">
-        <div className="h-48 overflow-hidden">
+        {/* <div className="h-48 overflow-hidden"> */}
           <img 
             src={project.image} 
             alt={project.title} 
             className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
           />
-        </div>
+        {/* </div> */}
       </div>
       <div className="p-6 bg-card">
         <h3 className="text-xl font-bold mb-2">{project.title}</h3>
@@ -79,7 +79,7 @@ const Projects = () => {
     {
       title: 'Kozi Kaza',
       description: 'Online platform offering home design tools, 3D planning, and a community for sharing interior decoration ideas.',
-      image: '/kozikaza.jpg',
+      image: '/kozikaza.png',
       technologies: ['Angular', 'Krpano', 'Babylon.js'],
       demoUrl: 'https://www.kozikaza.com/',
       githubUrl: '',
@@ -97,7 +97,7 @@ const Projects = () => {
     {
       title: 'Learn.TheYEI',
       description: 'Learning Portal provides practice resources for the AP Economics exams, National Economics Challenge, EconBowl, EconOlympiad, and more.',
-      image: '/yei-learn.jpg',
+      image: '/yei-learn.png',
       technologies: ['React', 'Next.js', 'TailwindCSS', 'CSS', 'Firebase'],
       demoUrl: 'https://learn.theyei.org/',
       githubUrl: '',
