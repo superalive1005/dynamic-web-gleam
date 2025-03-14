@@ -46,7 +46,7 @@ const ProjectCard = ({ project }: { project: ProjectProps }) => {
               rel="noopener noreferrer"
               className="flex items-center gap-1 text-primary hover:text-primary/80 font-medium"
             >
-              <ExternalLink className="h-4 w-4" /> Demo
+              <ExternalLink className="h-4 w-4" /> Link
             </a>
           )}
           {project.githubUrl && (
