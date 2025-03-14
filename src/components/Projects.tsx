@@ -75,7 +75,7 @@ const Projects = () => {
     {
       title: 'Kozi Kaza',
       description: 'Online platform offering home design tools, 3D planning, and a community for sharing interior decoration ideas.',
-      image: 'analytics.jpg',
+      image: 'kozikaza.jpg',
       technologies: ['Angular', 'Krpano', 'Babylon.js'],
       demoUrl: 'https://www.kozikaza.com/',
       githubUrl: '',
@@ -84,7 +84,7 @@ const Projects = () => {
     {
       title: 'Manifest Analytics Dashboard',
       description: 'Complex chart Dashboard for admin management.',
-      image: 'ui-library.jpg',
+      image: 'manifest.jpg',
       technologies: ['React', 'D3.js'],
       demoUrl: 'https://manifest-dashboard.vercel.app/',
       githubUrl: '',
@@ -93,8 +93,8 @@ const Projects = () => {
     {
       title: 'Learn.TheYEI',
       description: 'Learning Portal provides practice resources for the AP Economics exams, National Economics Challenge, EconBowl, EconOlympiad, and more.',
-      image: 'real-estate.jpg',
-      technologies: ['React', 'Next.js', 'TailwindCSS', 'CSS'],
+      image: 'yei-learn.jpg',
+      technologies: ['React', 'Next.js', 'TailwindCSS', 'CSS', 'Firebase'],
       demoUrl: 'https://learn.theyei.org/',
       githubUrl: '',
       gradient: 'bg-card-gradient',
