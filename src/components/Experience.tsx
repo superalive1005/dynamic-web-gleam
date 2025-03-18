@@ -47,7 +47,7 @@ const Experience = () => {
       location: 'Dundalk, County Louth, Ireland',
       position: 'Junior Web Developer',
       duration: '10/2014 – 12/2016',
-      website: 'https://mosaicstudios.iohttp://www.geckogovernance.io/',
+      website: 'http://www.geckogovernance.io/',
       achievements: [
         'Maintained and optimized jQuery-based web apps, improving performance and reducing load times by 20.5% (from 7.3 seconds to 5.8 seconds), leading to a more seamless user experience by November 2016.',
         'Developed real-time dashboards using AJAX and RESTful APIs, enabling faster data updates and improving reporting efficiency for internal teams.',
