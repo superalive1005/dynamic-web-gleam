@@ -4,11 +4,11 @@ import { Briefcase } from 'lucide-react';
 const Experience = () => {
   const experiences = [
     {
-      company: 'Lidl',
+      company: 'KPH Healthcare Services',
       location: 'East Syracuse, NY, United States',
       position: 'Senior Frontend Developer',
       duration: '09/2022 – 02/2025',
-      website: 'www.lidl.com',
+      website: 'http://www.kphhealthcareservices.com/m',
       achievements: [
         'Led the development of a multi-tenant eCommerce platform using React, Next.js, and TypeScript, serving over 480,000 daily active users with an uptime of 99.98%.',
         'Optimized page load times from 4.2 seconds to 2.8 seconds by implementing Server-Side Rendering (SSR), lazy loading, and code splitting by 18th January 2025, resulting in a 34.7% increase in user engagement.',
@@ -17,11 +17,11 @@ const Experience = () => {
       ],
     },
     {
-      company: 'Darty',
+      company: 'Colizey',
       location: 'Paris, France',
       position: 'Frontend Developer',
       duration: '06/2019 – 08/2022',
-      website: 'www.darty.com',
+      website: 'http://www.cathayinnovation.com/',
       achievements: [
         'Developed and maintained an enterprise-level eCommerce platform serving over 1 million monthly users, ensuring a seamless shopping experience.',
         'Built a custom React UI library, reducing development time for new features by 120 hours per project by 10th August 2022 and ensuring design uniformity across 32 components.',
@@ -30,11 +30,11 @@ const Experience = () => {
       ],
     },
     {
-      company: 'Your Move',
+      company: 'Docebo',
       location: 'London, United Kingdom',
       position: 'Frontend Developer',
       duration: '01/2017 – 05/2019',
-      website: 'www.your-move.co.uk',
+      website: 'http://www.docebo.com/',
       achievements: [
         'Built and optimized marketing landing pages and interactive dashboards, enhancing user engagement by 32% and 17.5% more qualified lead within 2 months.',
         'Developed React-based marketing analytics tools, tracking over 2.1 million daily events, providing actionable insights to the marketing team by 20th April 2019.',
@@ -43,11 +43,11 @@ const Experience = () => {
       ],
     },
     {
-      company: 'Mosaic Studios',
-      location: 'Dublin, Ireland',
+      company: 'GECKO Governance',
+      location: 'Dundalk, County Louth, Ireland',
       position: 'Junior Web Developer',
       duration: '10/2014 – 12/2016',
-      website: 'https://mosaicstudios.io',
+      website: 'https://mosaicstudios.iohttp://www.geckogovernance.io/',
       achievements: [
         'Maintained and optimized jQuery-based web apps, improving performance and reducing load times by 20.5% (from 7.3 seconds to 5.8 seconds), leading to a more seamless user experience by November 2016.',
         'Developed real-time dashboards using AJAX and RESTful APIs, enabling faster data updates and improving reporting efficiency for internal teams.',
