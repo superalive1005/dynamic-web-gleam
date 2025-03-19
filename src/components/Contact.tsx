@@ -81,7 +81,7 @@ const Contact = () => {
                   </div>
                 </div>
                 
-                <div className="flex items-start gap-4">
+                {/* <div className="flex items-start gap-4">
                   <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center text-primary">
                     <MapPin className="h-5 w-5" />
                   </div>
@@ -91,7 +91,7 @@ const Contact = () => {
                       Dublin, Leinster, Ireland
                     </p>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
             
