@@ -45,10 +45,10 @@ const About = () => {
                   <Phone className="h-5 w-5 text-primary" />
                   <span>+1 (323) 391-6006</span>
                 </div>
-                <div className="flex items-center gap-3">
+                {/* <div className="flex items-center gap-3">
                   <MapPin className="h-5 w-5 text-primary" />
                   <span>Dublin, Leinster, Ireland</span>
-                </div>
+                </div> */}
               </div>
             </div>
             
