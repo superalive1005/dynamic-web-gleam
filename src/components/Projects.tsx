@@ -73,7 +73,7 @@ const Projects = () => {
       image: 'https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?q=80&w=2070&auto=format&fit=crop',
       technologies: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Stripe API'],
       demoUrl: '',
-      githubUrl: 'https://github.com/livebcdev0603/ecommerce-nextjs',
+      githubUrl: 'https://github.com/superalive1005/ecommerce-nextjs',
       gradient: 'bg-hero-pattern',
     },
     {

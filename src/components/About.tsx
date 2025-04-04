@@ -81,7 +81,7 @@ const About = () => {
             
             <div className="flex gap-4">
               <a 
-                href="https://github.com/livebcdev0603" 
+                href="https://github.com/superalive1005" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="text-primary hover:text-primary/80 font-medium transition-colors"

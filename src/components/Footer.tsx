@@ -40,7 +40,7 @@ const Footer = () => {
             </p>
             <div className="flex space-x-6">
               <a 
-                href="https://github.com/livebcdev0603" 
+                href="https://github.com/superalive1005" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="text-muted-foreground hover:text-primary transition-colors"
